@@ -1,0 +1,7 @@
+.env
+.idea
+nbproject/
+storage/framework/views/
+public/images/products/preview/
+vendor
+composer.lock

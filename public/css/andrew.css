@@ -1,0 +1,127 @@
+.sp_error{
+    display:none;
+    color:#fff;
+    padding:3px 10px;
+    background:#c0a0af;
+    font-family:'RobotoLight',sans-serif;
+    font-size:12px;
+    width: 75%;
+    float: right;
+}
+#thanks{
+    margin-top:100px;
+    z-index:999999999999;
+}
+#thanks .modal-body{
+    text-align:center;
+    background:#157946;
+}
+#thanks .modal-body .close{
+    float:right;
+    font-size:21px;
+    font-weight:bold;
+    line-height:1;
+    color:#fff;
+    text-shadow:0 1px 0 #fff;
+    opacity:1;
+    filter:alpha(opacity=0);
+}
+#thanks .modal-body span{
+    display:block;
+    font-family:'RobotoLight',sans-serif;
+    font-size:24px;
+    color:#fff;
+}
+@media (max-width: 510px){
+    .sp_error{
+        width: 100%;
+        float: none;
+    }
+}
+@media (max-width: 370px){
+    #profile #register_form .parent_captcha{
+        transform: scale(0.77)!important;
+    }
+}
+#register_form .postal_addr{
+    margin-bottom: 35px;
+}
+#email_form .email_error{
+    font-size: 14px;
+}
+#reset_form .help-block{
+    font-size: 14px;
+}
+#register_form .parent_captcha{
+    max-width: 305px!important;
+}
+/*#order_up .select2{*/
+    /*margin-left: 20px;*/
+    /*font-size: 17px;*/
+    /*font-family: 'Conv_Ubuntu-Light',sans-serif;*/
+    /*color: #444;*/
+    /*line-height: 28px;*/
+/*}*/
+#order_up .select2-container--default .select2-selection--single {
+    border:none;
+}
+#order_up .select2 .select2-selection__arrow b{
+    border-color: #c3a5b3 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px 9px 0 9px;
+    /*height: 0;*/
+    /*left: 50%;*/
+    /*right: 0;*/
+    /*margin-top: 5px;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*width: 0;*/
+}
+.language-select li a{
+    color: #c0a0af;
+}
+#edit_user .group span{
+    color: red;
+}
+#thanks{
+    margin-top:100px;
+    z-index:999999999999;
+}
+#thanks .modal-body{
+    text-align:center;
+}
+#thanks .modal-body .close{
+    float:right;
+    font-size:21px;
+    font-weight:bold;
+    line-height:1;
+    color:#fff;
+    text-shadow:0 1px 0 #fff;
+    opacity:1;
+    filter:alpha(opacity=0);
+}
+#thanks .modal-body span{
+    display:block;
+    font-family:'RobotoLight',sans-serif;
+    font-size:24px;
+    color:#fff;
+}
+#sum_tab {
+    width: 50%;
+    float: right;
+    background: #B3A7A7;
+}
+tr[data-id="empty-column"] .fa-eye{
+    color: gray;
+}
+
+#type_payment .type-price {
+     display: table-cell;
+     vertical-align: middle;
+     font-size: 20px;
+ }
+
+.orders input[type="number"]{
+    max-width: 50px;
+    text-align: center;
+}
